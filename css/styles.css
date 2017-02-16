@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========================================= */
+
+/* common */
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* ========================================= */
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* bar */
+
+.bar {
+	background: #f6f6f6;
+	height: 23px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.bar ul {
+	float: right;
+}
+
+.bar ul li {
+	float:  left;
+	margin-right: 5px;
+}
+
+.bar ul li img {
+	float: left;
+	margin-right: 2px;
+}
+
+.social-separator {
+	color: #cccccc;
+}
+
+.bar ul li a {
+	text-decoration: none;
+}
+
+.facebook a span {
+	color: #4460a0;
+}
+
+.twitter a span {
+	color: #87cbf0;
+}
+
+
+/* header */
+
+.header {
+	height: 56px;
+}
+
+.header h1 {
+	float:  left;
+}
+
+.header h1 a {
+	width: 170px;
+	height: 36px;
+	background: url(../img/logo.png) no-repeat;
+	display: block;
+	margin-top: 10px;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.header ul {
+	float: right;
+}
+
+.header ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+.header ul li a {
+	height: 56px;
+	line-height: 56px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	text-decoration: none;
+	color: #00cc99;
+}
+
+.header ul li a:hover {
+	height: 53px;
+	border-bottom: 3px solid #00cc99;
+}
+
+
+/* content */
+
+.banner {
+	height: 246px;
+	padding-top: 100px;
+	background: url(../img/banner.jpg);
+	margin-bottom: 80px;
+}
+
+.banner div {
+	height: 110px;
+	font-size: 35px;
+	padding: 30px 0 0 20px;
+	color: #fff;
+	background: rgba(33, 30, 28, 0.2);
+}
+
+.catalog {
+	margin-bottom: 60px;
+}
+
+.catalog ul li {
+	float: left;
+	width: 280px;
+	padding: 10px 10px 20px;
+	margin-left: 30px;
+	border-bottom: 3px solid #dbdbdb;
+}
+
+.catalog-img {
+	height: 150px;
+	text-align: center;
+}
+
+.catalog ul li h2 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.catalog ul li span {
+	line-height: 20px;
+}
+
+.course-diff {
+	margin-bottom: 70px;
+}
+
+.course-diff h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.course-diff table {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.course-diff th, .course-diff td {
+	text-align: left;
+	padding: 10px;
+	border-top: 1px solid #dddddd;
+}
+
+.course-diff th {
+	font-weight: bold;
+}
+
+.win {
+	color: #42b392;
+}
+
+.form-data {
+	background: linear-gradient(#00644b, #009772);
+	background: #00644b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00644b, #009772); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00644b, #009772); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00644b, #009772); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00644b, #009772); /* Standard syntax */
+}
+
+.form-data h2 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px 0;
+	line-height: 30px;
+}
+
+.form-data div div {
+	float: left;
+	margin: 20px 40px 20px 20px;
+	width: 440px;
+	height: 240px;
+}
+
+.blank {
+	background: #fff;
+	border-radius: 3px;
+}
+
+.form-data div div ul li {
+	margin-bottom: 6px;
+}
+
+.form-data label {
+	color:  #fff;
+	line-height: 30px;
+}
+
+.form-data input {
+	border-radius: 3px;
+	border:  none;
+}
+
+.form-data input[type=text] {
+	width: 98%;
+	height: 23px;
+	font-size: 16px;
+	padding: 3px 0 3px 10px;
+}
+
+.form-data input[type=submit] {
+	padding: 8px 20px;
+	color: #fff;
+	background: #00cc99;
+}
+
+.form-data input[type=submit]:hover {
+	background: #04ba8c;
+}
+
+.form-data .submit {
+	padding-top: 15px;
+	text-align: right;
+}
+
+
+/* footer */
+
+.footer {
+	padding: 20px;
+}
+
+.footer-logo {
+	width: 170px;
+	height: 36px;
+	float: left;
+	background: url(../img/footer-logo.png);
+}
+
+.footer ul {
+	float: right;
+}
+
+.footer ul li {
+	margin-bottom: 10px;
+}
+
+.footer ul li span {
+	color: #e12d80;
+}
