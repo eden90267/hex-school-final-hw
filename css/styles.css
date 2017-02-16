@@ -157,7 +157,7 @@ table {
 	height: 246px;
 	padding-top: 100px;
 	background: url(../img/banner.jpg);
-	margin-bottom: 80px;
+	margin-bottom: 66px;
 }
 
 .banner div {
@@ -177,7 +177,11 @@ table {
 	width: 280px;
 	padding: 10px 10px 20px;
 	margin-left: 30px;
-	border-bottom: 3px solid #dbdbdb;
+	border-radius: 0 0 3px 3px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	box-shadow: 0 3px 3px #d7d7d7;
 }
 
 .catalog-img {
@@ -215,11 +219,17 @@ table {
 .course-diff th, .course-diff td {
 	text-align: left;
 	padding: 10px;
-	border-top: 1px solid #dddddd;
 }
 
 .course-diff th {
+	background: #f7f7f7;
 	font-weight: bold;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+.course-diff td {
+	border-bottom: 1px solid #dddddd;
 }
 
 .win {
